@@ -1,0 +1,81 @@
+div.tableBasic_v2 {}
+div.tableBasic_v2 table {
+  border:1px solid #cccccc;
+  vertical-align: middle;
+  width: 100%; 
+  font-size: 11px;
+}
+
+div.tableBasic_v2 table th {font-weight: bold;}
+div.tableBasic_v2 table th, 
+div.tableBasic_v2 table td {
+	 border-left: 1px solid #cccccc; border-right:1px solid #cccccc;
+	margin: auto;
+	padding: 7px 10px;
+}
+
+div.tableBasic_v2.top-align table {
+	vertical-align: top;
+}
+
+div.tableBasic_v2 table th.bline, 
+div.tableBasic_v2 table td.bline {
+	border-left: 1px solid #C6C2A6;
+}
+th.tdheader, 
+td.tdheader {
+	font-size: 12px;
+	margin: 10px;
+}
+
+div.tableBasic_v2 table .color0 
+{background-color: none;}    /* clear */
+
+div.tableBasic_v2 table .color1 
+{background-color: #ffffff;} /* white */
+
+div.tableBasic_v2 table .color3.hover:hover, 
+div.tableBasic_v2 table .color1.hover:hover, 
+div.tableBasic_v2 table .color2 
+{background-color: #F0F0F0;} /* light grey */
+
+div.tableBasic_v2 table .color2.hover:hover, 
+div.tableBasic_v2 table .color3 
+{background-color: #E8E8E8;} /* grey */
+
+div.tableBasic_v2 table .color4 
+{background-color: #EDF5F8;} /* lightest blue */
+
+div.tableBasic_v2 table .color4.hover:hover, 
+div.tableBasic_v2 table .color5 
+{background-color: #E5F0F5;} /* lighter blue */
+
+div.tableBasic_v2 table .color5.hover:hover, 
+div.tableBasic_v2 table .color6 
+{background-color: #E0EDF3;} /* light blue */
+
+div.tableBasic_v2 table .color8.hover:hover, 
+div.tableBasic_v2 table .color6.hover:hover, 
+div.tableBasic_v2 table .color7 
+{background-color: #DAEAF1;} /* med-light blue */
+
+div.tableBasic_v2 table .color7.hover:hover, 
+div.tableBasic_v2 table .color8 
+{background-color: #B4D4E2;} /* med blue */
+
+div.tableBasic_v2 table .color9 
+{background-color: #BB000D; color: #ffffff;} /* red */
+
+
+div.tableBasic_v2.border {
+  margin: 10px;
+  border:  1px solid #DAEAF1; 
+  padding: 3px;
+}
+
+div.tableBasic_v2 table th.rowDivider {
+  background-color:           #ffffff;
+  border-bottom:    1px solid #cccccc;
+  font-size:        1.2em;
+}
+

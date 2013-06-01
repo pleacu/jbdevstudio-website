@@ -1,0 +1,49 @@
+dt {
+	font-weight:bold;
+	padding-bottom:.5em;
+}
+
+dd {
+	margin-bottom:1.5em;
+}
+	
+dd {
+	margin-bottom:1.5em;
+}
+
+dd div {
+	margin: 1em 0 2em 0;
+}
+	
+ul li,
+ol li {
+	margin: 5px 0;
+}
+	
+ul.linkage {
+	padding-left: 8px;
+	margin-left: 9px;
+}
+	
+ul.linkage li{
+	list-style: none;
+  background-image: url(/images/JBDS-PE-3.0/arrow_blue.png);
+	background-repeat: no-repeat;
+	background-position: 0 .4em;
+	padding-left: 10px;
+	margin: .4em 0;
+}
+
+#contentHome ul.linkage li a {
+  font-weight:bold;
+}
+
+#contentHome ul.linkage li a:hover {
+    color:#bebfc0;
+}
+
+
+ul.linkage.red li {
+  background-image: url(/images/JBDS-PE-3.0/arrow_red.png);
+}
+

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='JBoss Developer Studio 5.x - Extras' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+<properties size='2'>
+<property name='p2.compressed' value='true'/>
+<!-- 
+     get new time w/ 
+      date +%s000
+-->
+<property name='p2.timestamp' value='1359153299000'/>
+</properties>
+<children size='2'>
+<child location='../../5.0.0/5.0.2.GA.extras/'/>
+<child location="https://devstudio.jboss.com/updates/requirements/pmd/3.2.6/"/>
+</children>
+</repository>
+

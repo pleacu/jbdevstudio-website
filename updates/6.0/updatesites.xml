@@ -1,0 +1,10 @@
+<bookmarks>
+	<site url="https://devstudio.jboss.com/updates/6.0/"
+		selected="true" name="JBoss Developer Studio 6.x - Core" />
+	<site url="https://devstudio.jboss.com/updates/6.0/integration-stack/"
+		selected="true" name="JBoss Developer Studio 6.x - Integration Stack" />
+	<site url="https://devstudio.jboss.com/updates/6.0/extras/"
+		selected="true" name="JBoss Developer Studio 6.x - Extras" />
+	<site url="https://devstudio.jboss.com/updates/6.0/techpreview/"
+		selected="false" name="JBoss Developer Studio 6.x - Tech Preview" />
+</bookmarks>

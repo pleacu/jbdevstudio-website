@@ -1,0 +1,10 @@
+<bookmarks>
+	<site url="https://devstudio.jboss.com/updates/5.0-staging/"
+		selected="true" name="(Staging) JBoss Developer Studio 5.x - Core" />
+	<site url="https://devstudio.jboss.com/updates/5.0-staging/soa-tooling/"
+		selected="true" name="(Staging) JBoss Developer Studio 5.x - SOA Tooling" />
+	<site url="https://devstudio.jboss.com/updates/5.0-staging/extras/"
+		selected="true" name="(Staging) JBoss Developer Studio 5.x - Extras" />
+	<site url="https://devstudio.jboss.com/updates/5.0-staging/techpreview/"
+		selected="false" name="(Staging) JBoss Developer Studio 5.x - Tech Preview" />
+</bookmarks>

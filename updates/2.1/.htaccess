@@ -1,0 +1,10 @@
+AuthName "JBoss Developer Studio 2.1 Login Required"
+AuthUserFile /var/www/devstudio.jboss.com/password/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+<Limit GET POST>
+order allow,deny
+allow from all
+require user devstudio 
+</Limit>
+

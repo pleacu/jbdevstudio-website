@@ -1,0 +1,8 @@
+<bookmarks>
+  <site url="https://devstudio.jboss.com/updates/4.0/staging/"
+	selected="true" name="(Staging) JBoss Developer Studio 4.x - Core" />
+  <site url="https://devstudio.jboss.com/updates/4.0/staging/extras/"
+	selected="true" name="(Staging) JBoss Developer Studio 4.x - Extras" />
+  <site url="https://devstudio.jboss.com/updates/4.0/staging/techpreview/"
+      selected="false" name="(Staging) JBoss Developer Studio 4.x - Tech Preview" />
+</bookmarks>

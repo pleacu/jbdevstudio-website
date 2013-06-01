@@ -1,0 +1,185 @@
+/*** ESSENTIAL STYLES ***/
+
+#primarynav{
+	right:5px;
+	position:relative
+	}
+
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+	}
+	
+.sf-menu {
+	position:absolute;
+	line-height:	.85;
+	top:39px; /* determines the position of the tabs - this has an IE Hack */
+	right:-3px;
+	}
+	
+.sf-menu ul {
+	background:#e5e5e5 url(/images/JBDS-PE-3.0/bkgdropdownul.png) repeat-x;
+	position:		absolute;
+	top:			-999em;
+	margin-top:-5px;
+	width:164px;/* this determines the width of the dropdown */
+	z-index:999;
+	-moz-border-radius-bottomleft: 8px; -webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px;
+	}
+	
+.sf-menu ul.lastul {
+	margin-left:-76px ; /* determines the position of the last ul dropdown - this has an IE Hack */
+	}
+	
+.sf-menu ul li:last-child,
+.sf-menu ul li.lastli {
+	border:0;
+	}
+	
+.sf-menu ul li:last-child a,
+.sf-menu ul li.lastli a {
+	-moz-border-radius-bottomleft: 8px; -webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px;
+	border-bottom: 1px solid #CCCCCC;
+	}
+
+
+
+.sf-menu ul li {
+	width:			100%;
+	}
+	
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+	}
+
+.sf-menu li {
+	float:			left;
+	position:		relative;
+	}
+	
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+	}
+	
+
+
+
+/*** MENU SKIN ***/
+.sf-menu {
+	float:			left;
+	}
+	
+.sf-menu strong,
+.sf-menu a {
+	border: 1px solid #CCC;
+	border-width:1px 1px 0;
+	padding: 0;  
+	text-decoration:none;
+	color:#666;
+	display: block;
+	position: relative;
+	}
+	
+.sf-menu li a.menu-title {
+	background:#FFFFFF url(/images/JBDS-PE-3.0/navtabsbkg_norm2.png) repeat-x ;
+	border-bottom:	1px solid #CCCCCC;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	}
+	
+.sf-menu li a.menu-title{
+	height:25px;
+	width:87px;
+	display:block;
+	text-align:center;
+	line-height:25px
+}
+	
+.sf-menu li a.menu-title:hover {
+	border:1px solid #CCCCCC;
+	}
+	
+.sf-menu li ul li strong {
+   padding:10px; 
+}
+.sf-menu li ul li a {
+	padding:10px 0 10px 10px;
+	}
+
+/* 'firsttab' and 'lasttab' styles */
+.sf-menu li.firsttab a.menu-title {
+	border-left:1px solid #CCCCCC;
+	}
+	
+.sf-menu li.lasttab a.menu-title {
+	border-right:1px solid #CCCCCC;
+	}
+
+/* hover and 'current' styles */
+#primarynav a.menu-title:hover {
+	color:#666666;
+	background:#FFFFFF;
+	}
+	
+#leftcol li.current a,
+.sf-menu li li a:hover, 
+.mt-nav li li a:focus, 
+.current li.current a {
+	background: url(/images/JBDS-PE-3.0/bkgcurrent.png) no-repeat;
+	background-position: 4px; 
+	color:#04A6DF; /* jboss bright blue */
+	}
+	
+.sf-menu li.current a.menu-title {
+	background:url(/images/JBDS-PE-3.0/navtabsbkg_current2.png) repeat-x;
+	}
+
+
+
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('images/JBDS-PE-3.0/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+	}
+	
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+	}
+	
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+	}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+	}
