@@ -7,7 +7,7 @@
      get new time w/ 
       date +%s000
 -->
-<property name='p2.timestamp' value='1369838436000'/>
+<property name='p2.timestamp' value='1372043338000'/>
 </properties>
 <children size='2'>
 <child location='../../extras/'/>
