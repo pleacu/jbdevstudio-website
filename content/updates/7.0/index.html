@@ -19,6 +19,27 @@
 
 <script type="text/javascript">
     <!--
+    function toggle()
+    {
+      theImg=document.getElementById('screenshot');
+      if (theImg.src.indexOf("540.png")>0)
+      {
+        theImg.src=theImg.src.replace("jbds-screenshot-browsersim-540.png","jbds-screenshot-browsersim.png");
+        theImg.style.zIndex="1";
+        theImg.style.position="absolute";
+        theImg.style.top="-150px";
+        theImg.style.left="-10px";
+      }
+      else
+      {
+        theImg.src=theImg.src.replace("jbds-screenshot-browsersim.png","jbds-screenshot-browsersim-540.png");
+        theImg.style.zIndex="0";
+        theImg.style.position="relative";
+        theImg.style.top="0px";
+        theImg.style.left="0px";
+      }
+    }
+
     // given /earlyaccess/builds/stable/7.0.0.x/jbdevstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip and builds/
     // return stable/7.0.0.x/jbdevstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip
     function cleanURL(url,prefix)
@@ -38,6 +59,26 @@
     	<h1>Red Hat JBoss Developer Studio 7.x - Updates</h1>
 	</div>
  	<div id="content">
+
+      <table width="100%">
+        <tr>
+          <td align="right"><small>
+            <span style="font-size: x-small;">Build 7.0.0.GA</span>
+          </small></td>
+        </tr>
+      </table>
+
+  <div class="rightsidebar" style="width:280px;padding-right:0px;padding-left:10px;z-index:-1;float:right">
+    <h4>Installation&#160;::&#160;Core&#160;Tooling</h4>
+    <p style="width:260px;margin-right:15px">1. If you don't already have one installed, you will need to download and install Sun/Oracle/Open JDK 7 (or 6).</p>
+    <p style="width:260px;margin-right:15px">2. Download the <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/earlyaccess/7.0/">installer</a> for your platform.</p>
+    <p style="width:260px;margin-right:15px">3. Double-click the installer file to run it, or open a terminal and type <nobr><code>java -jar jbdevstudio-*.jar</code></nobr></p>
+    <a onClick="javascript: _gaq.push(['_trackPageview', '/jbossas/downloads1']);" href="http://www.jboss.org/jbossas/downloads/"><img src="https://devstudio.jboss.com/images/banner_JBEAP6.png" style="margin-left:-5px" border="0"/></a>
+    
+    <h4 style="padding-top:5px; margin-top:5px">Looking for EAP 6.1?</h4>
+    <p style="width:260px;margin-right:15px"><a onClick="javascript: _gaq.push(['_trackPageview', '/jbossas/downloads2']);" href="http://www.jboss.org/jbossas/downloads/">JBoss Enterprise Application Platform 6.1 Alpha</a> is available now.
+    <a onClick="javascript: _gaq.push(['_trackPageview', '/jbossas/downloads3']);" href="http://www.jboss.org/jbossas/downloads/">Click here</a> for more information or to download your copy today!</p>
+
 	<!-- <div class="rightsidebar" style="padding:7px">
 		<h4>How Do I Install?</h4>
 		<br/>
@@ -46,10 +87,11 @@
       <br/>
       <li>Select which updates you'd like to install. Restart when prompted.</li>
     </ol>
-
+-->
 <hr size="1"/>
 <h4 style="padding-bottom:10px">Release Notes:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Developer_Studio/7.0/html/Release_Notes_7.0.0/index.html">What's New in 7.0?</a><br/><br/>
-
+  </div> 
+<!--
 <h4 style="padding-bottom:10px">Getting Started Guide:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/knowledge/docs/en-US/JBoss_Developer_Studio/7.0/html/Getting_Started_Guide/index.html">First Steps with 7.0</a><br/><a style="color:green" href="https://access.redhat.com/knowledge/docs/en-US/JBoss_Developer_Studio/7.0/html-single/Getting_Started_Guide/index.html#AddingJBossServer">Adding EAP to JBDS</a><br/><br/>
 
 <h4 style="padding-bottom:10px">Beginners Guide:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/knowledge/docs/en-US/JBoss_Developer_Studio/7.0/html/Beginners_Guide/index.html">How To Use 7.0</a><br/><br/>
@@ -57,13 +99,8 @@
 <h4 style="padding-bottom:10px">Migration Guide:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/knowledge/docs/en-US/JBoss_Developer_Studio/7.0/html/Migration_Guide/index.html">From 6.x to 7.0</a><br/><br/>
 		</div> -->
         <h2 class="prime">Red Hat JBoss Developer Studio 7.0 Updates</h2>
-<!--		<p>This site contains the latest released updates for <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'http://www.')])" href="http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/">Red Hat JBoss Developer Studio</a>.
-       For more information, see <br/> 
-	   <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'http://www.')])" href="http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/">http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/</a>.
--->
 		
-	<!-- during Early Access -->
-		<p>This site contains the latest <b>Development Milestone</b> updates for <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/earlyaccess/7.0/">Red Hat JBoss Developer Studio 7.x - Early Access</a>.<br/>
+		<p>This site contains the latest <b>Stable Release</b> updates for <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/earlyaccess/7.0/">Red Hat JBoss Developer Studio 7.x - Early Access</a>.
 	For more information, see <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/earlyaccess/7.0/">https://devstudio.jboss.com/earlyaccess/7.0/</a>. 
         
         <!--<p>If you do not already have a copy of Red Hat JBoss Developer Studio, you can <a href="https://www.redhat.com/apps/store/developers/jboss_developer_studio.html">purchase a subscription</a> or get a <br/><a href="https://inquiries.redhat.com/go/redhat/csp-jbossdeveloperstudio">30-day Free Trial</a> from here: <a href="https://access.redhat.com/downloads/">https://access.redhat.com/downloads/</a>.</p>-->
@@ -72,18 +109,17 @@
 <!--
 		<p>If you do not already have a copy of Red Hat JBoss Developer Studio, <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="/download/">click here to purchase or download it free</a>.</p>
 -->
-<!--
+
 <div style="background-color:#eeeecc; width:580px;padding:10px;margin:0px;padding-top:0px;margin-top:0px;border:1px #aaaaaa solid;z-index:1;position:relative;float:left">
     <h2><a name="universal"></a>
   Latest Build:&nbsp;&nbsp;<span class="build">
-  7.0.0.Beta1
--->
-<p>This site is currently empty. Stay tuned!</p>
+  7.0.0.GA
+
   </span></h2>
-<!--
+
       <ul>    
         <li class="multiplatform"><a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)]);" style="font-size: 18px;"
-            href=".">https://devstudio.jboss.com/updates/7.0/</a></li>
+            href=".">https://devstudio.jboss.com/updates/7.0-staging/</a></li>
         <li class="note"><a name="64bnote"></a>The Visual Page Editor does not run on 64-bit Windows or Mac. While the source editor does work, visual editing &amp; preview do not. If you require this, run the installer with a 32-bit JDK.</li>
       </ul>
   <p align="center"><a href="javascript:toggle()"><img border="0" id="screenshot" src="https://devstudio.jboss.com/images/jbds-screenshot-browsersim-540.png"/><br/><small>Click to enlarge</small></a></p>
@@ -101,10 +137,10 @@
 <p><i><b style="color:#CC0000">Note:</b> If you install Red Hat JBoss Developer Studio updates into an existing Eclipse 4.2 (Juno) installation, you may need to tweak your eclipse.ini file to give Eclipse more memory than is allocated when installing Red Hat JBoss Developer Studio. Please see the following tips:</i></p>
         <div class="proj_checklist">
             <ul>
-<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0/install-jbds-to-eclipse')" href="https://issues.jboss.org/browse/JBDS-1577#comment-12586050">Installing JBDS into Eclipse works, but runs out of memory</a></li>
-<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0/starting-eclipse')" href="http://wiki.eclipse.org/IRC_FAQ#How_do_I_start_Eclipse.3F">How do I start Eclipse?</a></li>
-<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0/eclipse-memory-settings')" href="http://wiki.eclipse.org/Eclipse.ini#See_Also">Using eclipse.ini, increasing heap &amp; permgen memory</a></li>
--->
+<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0-staging/install-jbds-to-eclipse')" href="https://issues.jboss.org/browse/JBDS-1577#comment-12586050">Installing JBDS into Eclipse works, but runs out of memory</a></li>
+<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0-staging/starting-eclipse')" href="http://wiki.eclipse.org/IRC_FAQ#How_do_I_start_Eclipse.3F">How do I start Eclipse?</a></li>
+<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0-staging/eclipse-memory-settings')" href="http://wiki.eclipse.org/Eclipse.ini#See_Also">Using eclipse.ini, increasing heap &amp; permgen memory</a></li>
+
 </ul>
 </div>
     </div>

@@ -1,10 +1,10 @@
 <bookmarks>
-	<site url="https://devstudio.jboss.com/updates/7.0-staging/"
-		selected="true" name="(Staging) JBoss Developer Studio 7.x - Core" />
-	<site url="https://devstudio.jboss.com/updates/7.0-staging/integration-stack/"
-		selected="true" name="(Staging) JBoss Developer Studio 7.x - Integration Stack" />
-	<site url="https://devstudio.jboss.com/updates/7.0-staging/extras/"
-		selected="true" name="(Staging) JBoss Developer Studio 7.x - Extras" />
-	<site url="https://devstudio.jboss.com/updates/7.0-staging/techpreview/"
-		selected="false" name="(Staging) JBoss Developer Studio 7.x - Tech Preview" />
+	<site url="https://devstudio.jboss.com/updates/7.0-development/"
+		selected="true" name="(Dev Milestone) JBoss Developer Studio 7.x - Core" />
+	<site url="https://devstudio.jboss.com/updates/7.0-development/integration-stack/"
+		selected="true" name="(Dev Milestone) JBoss Developer Studio 7.x - Integration Stack" />
+	<site url="https://devstudio.jboss.com/updates/7.0-development/extras/"
+		selected="true" name="(Dev Milestone) JBoss Developer Studio 7.x - Extras" />
+	<site url="https://devstudio.jboss.com/updates/7.0-development/techpreview/"
+		selected="false" name="(Dev Milestone) JBoss Developer Studio 7.x - Tech Preview" />
 </bookmarks>
