@@ -3,5 +3,5 @@
 <!-- include JBDS Core Central discovery plugin -->
 <entry url="discovery/com.jboss.jbds.central.discovery_1.0.1.v20130119-0035-H249-GA.jar" permitCategories="true"/>
 <!-- include JBDS SOA Central discovery plugin too -->
-<entry url="discovery/com.jboss.jbds.central.discovery.soa-tooling_1.0.4.v20130329-1017-H8-GA.jar" permitCategories="true"/>
+<entry url="discovery/com.jboss.jbds.central.discovery.soa-tooling_1.0.4.v20130802-1419-H5-GA.jar" permitCategories="true"/>
 </directory>
