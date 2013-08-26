@@ -7,9 +7,11 @@
      get new time w/ 
       date +%s000
 -->
-<property name='p2.timestamp' value='1360900470000'/>
+<property name='p2.timestamp' value='1377529487000'/>
 </properties>
-<children size='0'>
-<!-- TODO: <child location='../../7.0.0/7.0.0.something ... '/> -->
+<children size='2'>
+  <child location='../../7.0/'/>
+  <child location='../../7.0.0/7.1.0.Beta1.jbds-is-target-platform/'/>
+  <!-- TODO: uncomment this once the site exists <child location='../../7.0.0/7.1.0.Beta1.jbds-is/'/> -->
 </children>
 </repository>
