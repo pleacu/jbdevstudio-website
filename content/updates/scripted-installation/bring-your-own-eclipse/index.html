@@ -31,8 +31,7 @@ Run the script as `ant -f install*.xml help` for example usage.
 <p><br/>
 <div class="proj_checklist">
 <ul>
-<li>Install JBDS 
-into Eclipse Standard bundle
+  <li>Install JBDS from installer jar into Eclipse Standard bundle
 <blockquote>
 <pre>target=${HOME}/eclipse/eclipse43; cd ${target}; rm -fr ${target}/eclipse
 tar xzf /tmp/Eclipse_Bundles/<b>eclipse-standard-kepler-R-linux-gtk-x86_64.tar.gz</b>
@@ -45,8 +44,7 @@ ${target}/eclipse/eclipse -consolelog -nosplash -data /tmp -application org.ecli
 </pre>
 </blockquote>
 
-<li>Install JBDS 
-and Subclipse w/ SVNKit adapter into Eclipse JEE bundle
+<li>Install JBDS from installer jar and Subclipse w/ SVNKit adapter into Eclipse JEE bundle
 <blockquote>
 <pre>target=${HOME}/eclipse/eclipse43; cd ${target}; rm -fr ${target}/eclipse
 tar xzf /tmp/Eclipse_Bundles/<b>eclipse-jee-kepler-R-linux-gtk-x86_64.tar.gz</b>
@@ -54,7 +52,7 @@ ${target}/eclipse/eclipse -consolelog -nosplash -data /tmp -application org.ecli
   install.xml -DsourceZip=/tmp/<a href="https://devstudio.jboss.com/earlyaccess/7.0/"><b>jbdevstudio-product-universal-7.0.0.GA-v20130720-0044-B364.jar</b></a> \
   -DotherRepos=https://devstudio.jboss.com/updates/7.0/central/core/ \
   -DtargetDir=${target}/eclipse/ \
-  -Dinstall="org.jboss.tools.community.central.feature.feature.group,\
+  -Dinstall="com.jboss.jbds.product.feature.feature.group,\
 org.tigris.subversion.subclipse.feature.group,\
 org.tigris.subversion.clientadapter.svnkit.feature.feature.group,\
 com.collabnet.subversion.merge.feature.feature.group,\
@@ -69,23 +67,22 @@ org.tmatesoft.svnkit.feature.group"
 # ...
 # [p2.dir] Operation completed in 231507 ms.
 </pre></blockquote>
+
+<li>Install JBDS from remote update site into Eclipse Standard bundle 
+<blockquote>
+<pre>target=${HOME}/eclipse/eclipse43; cd ${target}; rm -fr ${target}/eclipse
+tar xzf /tmp/Eclipse_Bundles/<b>eclipse-standard-kepler-R-linux-gtk-x86_64.tar.gz</b>
+${target}/eclipse/eclipse -consolelog -nosplash -data /tmp -application org.eclipse.ant.core.antRunner -f \
+  <b>director.xml</b> -DsourceSites=https://devstudio.jboss.com/updates/7.0/central/core/ \
+  -DtargetDir=${target}/eclipse/ -DIUs=<b>com.jboss.jbds.product.feature.feature.group</b>
+
+# [p2.dir] Installing com.jboss.jbds.product.feature.feature.group 7.0.0.GA-v20130720-0044-B364.
+# [p2.dir] Operation completed in 201507 ms.
+</pre>
+</blockquote>
+
 </ul>
 <hr size=1/>
-
-<h4>Variations</h4>
-<p><br/>
-For a simpler Ant script which can be used w/ any URL instead of a previously downloaded update 
-site archive as input, see <a href=director.xml>director.xml</a>. Note that director.xml does not throw 
-helpful error messages if commandline params are invalid or missing.
-<p>
-To script the installation of 
-<a href="https://www.jboss.org/tools/">JBoss Tools</a>, <a href="http://download.jboss.org/jbosstools/updates/scripted-installation/">click here</a>.
-
-<hr size=1/>
-
-<p>
-<small>Last tested on <b>2013-09-03</b> with <a href="http://www.eclipse.org/downloads/packages/eclipse-standard-43/keplerr">Eclipse Standard</a> or <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplerr">Eclipse IDE for Java EE Developers</a> 4.3 (Kepler) for linux 64-bit (Fedora 18, Oracle JDK 1.7.0_17), using 
-<a href="https://devstudio.jboss.com/earlyaccess/7.0/"><b>JBoss Developer Studio 7.0.0.GA installer jar</b></a>
 
      </div>
 </div>

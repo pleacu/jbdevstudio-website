@@ -12,6 +12,7 @@ ${target}/eclipse/eclipse -consolelog -nosplash -data /tmp -application org.ecli
 # [p2.dir] Operation completed in 50795 ms.
 
 # Install JBDS and Subclipse w/ SVNKit adapter into Eclipse JEE bundle
+# To get a list of feature.groups to install, you can use the p2 browser: https://github.com/ifedorenko/p2-browser/
 target=${HOME}/eclipse/eclipse43; cd ${target}; rm -fr ${target}/eclipse
 tar xzf /tmp/eclipse-jee-kepler-R-linux-gtk-x86_64.tar.gz
 ${target}/eclipse/eclipse -consolelog -nosplash -data /tmp -application org.eclipse.ant.core.antRunner -f \
@@ -19,7 +20,7 @@ ${target}/eclipse/eclipse -consolelog -nosplash -data /tmp -application org.ecli
   -DsourceZip=/tmp/jbdevstudio-product-universal-7.0.0.GA-v20130720-0044-B364.jar \
   -DotherRepos=https://devstudio.jboss.com/updates/7.0/central/core/ \
   -DtargetDir=${target}/eclipse/ \
-  -Dinstall="org.jboss.tools.community.central.feature.feature.group,\
+  -Dinstall="com.jboss.jbds.product.feature.feature.group,\
 org.tigris.subversion.subclipse.feature.group,\
 org.tigris.subversion.clientadapter.svnkit.feature.feature.group,\
 com.collabnet.subversion.merge.feature.feature.group,\
