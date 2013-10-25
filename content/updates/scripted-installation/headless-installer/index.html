@@ -11,20 +11,35 @@
   <div id="content">
         <h2>Scripted Installation</h2>
         <p>
-
-  To script the izpack installer to create installation(s) headlessly, see:
-
+<br/>
+There are two ways to script a JBoss Developer Studio installation.
 <div class="proj_checklist">
-<ul>
-  <li><a href="jbds-install.cmd">jbds-install.cmd</a> (Windows)
-    <li><a href="jbds-install.sh">jbds-install.sh</a> (Mac or Linux)
-</ul>
-</div>
+  <h4>Bootstrap Method: <b style="color:#990000">Run &amp; Repeat</b></h4>
+  <br/>
+  <ol>
+    <li>Run the installer using the izpack GUI (with <tt style="color:green">java -jar jbdevstudio-*.jar</tt>, then look for a file in the installation folder called <tt style="color:green">InstallConfigRecord.xml</tt>.</li><br/>
+    <li>For subsequent installs, you can then run headlessly with <tt style="color:green">java -jar jbdevstudio-*.jar InstallConfigRecord.xml</tt> to repeat the same install config on similar machines. Note that each <tt style="color:green">InstallConfigRecord.xml</tt> is machine-specific, using your specific JDK and install folder paths, so you will need to manually adjust the file to use it for different OS platforms, JDKs or paths.</li>
+  </ol>
 
+  <center><b><i> - OR -</i></b></center>
+
+  <h4>Shell Script Method: <b style="color:#990000">Run Anywhere</b></h4>
+  <br/>
+  <ol>
+    <li>Run a shell script that will generate a suitable <tt style="color:green">jbdevstudio-*.install.xml</tt> file for your specific machine's configuration, then perform the installation. Unlike the above aproach, you don't have to install JBoss Developer Studio using the izpack GUI to create the config file.</li><br/>
+    <li>You can optionally provide a specific JDK to the script, or let it use the default one in the script (<tt style="color:green">c:\progra~1\java\jre7\bin\java</tt> for Windows or <tt style="color:green">/usr/bin/java</tt> for Linux/OSX).<br/><br/>
+      <ul>
+        <li><a href="jbds-install.cmd">jbds-install.cmd</a> (Windows)
+        <li><a href="jbds-install.sh">jbds-install.sh</a> (Linux or OSX)
+      </ul>
+    </li>
+  </ol>
+</div>
+<!--
 <p>  To script installation into an existing Eclipse install, optionally also installing other features from JBoss Central or another site, see:
 <div class="proj_checklist">
 <ul><li><a href="../bring-you-own-eclipse">Bring Your Own Eclipse</a>
-</ul>
+</ul> -->
 </div>
 
 
