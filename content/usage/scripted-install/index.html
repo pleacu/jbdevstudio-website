@@ -12,27 +12,28 @@
         <h2>Scripted Installation</h2>
         <p>
 <br/>
-There are two ways to script a JBoss Developer Studio installation using the installer jar.
+Scripted installation for JBoss Developer Studio removes the need to step through the GUI of the universal installer. This enables simplified repeat installations or installations in bulk. There are two methods for scripted installation outlined below.
 <div class="proj_checklist">
-  <h4>Bootstrap Method: <b style="color:#990000">Run &amp; Repeat</b></h4>
+  <h4>Bootstrap Method: <b style="color:#990000">Install Once &amp; Use Generated File to Repeat Install</b></h4>
   <br/>
   <ol>
-    <li>Run the installer using the izpack GUI (with <tt style="color:green">java -jar jbdevstudio-*.jar</tt>, then look for a file in the installation folder called <tt style="color:green">InstallConfigRecord.xml</tt>.</li><br/>
-    <li>For subsequent installs, you can then run headlessly with <tt style="color:green">java -jar jbdevstudio-*.jar InstallConfigRecord.xml</tt> to repeat the same install config on similar machines. Note that each <tt style="color:green">InstallConfigRecord.xml</tt> is machine-specific, using your specific JDK and install folder paths, so you will need to manually adjust the file to use it for different OS platforms, JDKs or paths.</li>
+    <li>Run the GUI universal installer with the command<br/><tt style="color:green">java -jar jbdevstudio-*.jar</tt><br/>This generates a file in the installation folder called <tt style="color:green">InstallConfigRecord.xml</tt>.</li><br/>
+    <li>To run the universal installer without stepping through the GUI for subsequent installations, use the command<br/><tt style="color:green">java -jar jbdevstudio-*.jar InstallConfigRecord.xml</tt><br/>This  creates an identically configured JBoss Developer Studio installation. Note that each <tt style="color:green">InstallConfigRecord.xml</tt> file is machine-specific, using your specific Java developer kit and installation folder paths. To use the <tt style="color:green">InstallConfigRecord.xml</tt> file for systems with different operating systems, Java developer Kits or paths, you must manually modify the file.</li>
   </ol>
 
   <center><b><i> - OR -</i></b></center>
 
-  <h4>Shell Script Method: <b style="color:#990000">Run Anywhere</b></h4>
+  <h4>Shell Script Method: <b style="color:#990000">Run Script &amp; Use Generated File to Install</b></h4>
   <br/>
   <ol>
-    <li>Run a shell script that will generate a suitable <tt style="color:green">jbdevstudio-*.install.xml</tt> file for your specific machine's configuration, then perform the installation. Unlike the above aproach, you don't have to install JBoss Developer Studio using the izpack GUI to create the config file.</li><br/>
-    <li>You can optionally provide a specific JDK to the script, or let it use the default one in the script (<tt style="color:green">c:\progra~1\java\jre7\bin\java</tt> for Windows or <tt style="color:green">/usr/bin/java</tt> for Linux/OSX).<br/><br/>
-      <ul>
-        <li><a href="jbds-install.cmd">jbds-install.cmd</a> (Windows)
-        <li><a href="jbds-install.sh">jbds-install.sh</a> (Linux or OSX)
-      </ul>
-    </li>
+    <li>Download the appropriate shell script for your operating system:
+      <ul><br/>
+        <li><a href="jbds-install.cmd">jbds-install.cmd</a> (Microsoft Windows operating system)
+        <li><a href="jbds-install.sh">jbds-install.sh</a> (OS X or Linux-based operating system)
+      </ul>    
+    </li><br/>
+    <li>Run the shell script. This generates a machine-specific <tt style="color:green">jbdevstudio-*.install.xml</tt> file.</li><br/>
+	<li>To run the universal installer without stepping through the GUI screens for installations, use the command<br/><tt style="color:green">java -jar jbdevstudio-*.jar jbdevstudio-*.install.xml</tt><br/>Note that you can either specify a Java developer kit or use the default one in the script (<tt style="color:green">c:\progra~1\java\jre7\bin\java</tt> for Microsoft Windows operating systems or <tt style="color:green">/usr/bin/java</tt> for OS X and Linux-based operating systems).</li>
   </ol>
 </div>
 <!--
