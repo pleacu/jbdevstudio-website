@@ -70,18 +70,19 @@
 
   <div class="rightsidebar" style="width:280px;padding-right:0px;padding-left:10px;z-index:-1;float:right">
     <h4>Installation&#160;::&#160;Core&#160;Tooling</h4>
-    <p style="width:260px;margin-right:15px">1. If you don't already have one installed, you will need to download and install Sun/Oracle/Open JDK 7 (or 6).</p>
-    <p style="width:260px;margin-right:15px">2. Download the <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/earlyaccess/7.0/">installer</a> for your platform.</p>
-    <p style="width:260px;margin-right:15px">3. Double-click the installer file to run it, or open a terminal and type <nobr><code>java -jar jbdevstudio-*.jar</code></nobr></p>
+    <p style="width:260px;margin-right:15px">1. If not already installed, download and install Oracle JDK or OpenJDK 7 (or 6).</p>
+    <p style="width:260px;margin-right:15px">2. Download the <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/earlyaccess/7.0/">JBDS universal installer</a>.</p>
+    <p style="width:260px;margin-right:15px">3. To start the installer, double-click the installer file or in a CLI enter <nobr><code>java -jar jbdevstudio-*.jar</code></nobr></p>
+    <p style="width:260px;margin-right:15px">Installation <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/usage/scripted-install/">can also be scripted</a>.</p>
     <br/>
 
     <h4>Supported OS + JVM Combinations</h4>
-    <p>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Windows and OS X operating systems. If you require this, please use a 32-bit JVM instead. Details below:<br/><br/>
+    <p>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Microsoft Windows and OS X operating systems. If you require this feature, use a 32-bit JVM. Details are given below:<br/><br/>
     <img src="https://devstudio.jboss.com/images/JBDS-supported-jvm-os-combinations.png"/></p>
     <br/>
 
     <p>
-    <a onClick="javascript: _gaq.push(['_trackPageview', '/jbossas/downloads1']);" href="http://www.jboss.org/jbossas/downloads/"><img src="https://devstudio.jboss.com/images/banner_JBEAP6.png" style="margin-left:-5px" border="0"/></a>
+    <a onClick="javascript: _gaq.push(['_trackPageview', '/jbossas/downloads1']);" href="http://www.jboss.org/jbossas/downloads/"><img src="https://devstudio.jboss.com/images/logotype_JBEAP.png" style="margin-left:-5px" border="0" width=276px /></a>
     
     <h4 style="padding-top:5px; margin-top:5px">Looking for JBoss EAP 6.1?</h4>
     <p style="width:260px;margin-right:15px"><a onClick="javascript: _gaq.push(['_trackPageview', '/jbossas/downloads2']);" href="http://www.jboss.org/jbossas/downloads/">Red Hat JBoss Enterprise Application Platform 6.1</a> is available now.
@@ -101,7 +102,7 @@
 <h4 style="padding-bottom:10px">Release Notes:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Developer_Studio/7.0/html/Release_Notes_7.0.1/index.html">What's New in 7.0?</a>
 <br/><a style="color:blue" href="https://community.jboss.org/en/tools/blog/2013/07/23/jboss-tools-41-and-developer-studio-7-go-ga">Release Announcement</a><br/><br/>
 
-<h4 style="padding-bottom:10px">Getting Started Guide:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Developer_Studio/7.0/html/Getting_Started_Guide/index.html">First Steps with 7.0</a><br/><a style="color:green" href="https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Developer_Studio/7.0/html-single/Getting_Started_Guide/index.html#Set_Up_a_Runtime_Server_Using_Server_Manager">Adding EAP to JBDS</a><br/><br/>
+<h4 style="padding-bottom:10px">Getting Started Guide:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Developer_Studio/7.0/html/Getting_Started_Guide/index.html">First Steps with 7.0</a><br/><a style="color:green" href="https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Developer_Studio/7.0/html-single/Getting_Started_Guide/index.html#Set_Up_a_Runtime_Server_Using_Server_Manager">Adding JBoss EAP to JBoss Developer Studio</a><br/><br/>
 
 <h4 style="padding-bottom:10px">User Guide:</h4> <a onClick="javascript: _gaq.push(['_trackPageview', cleanURL(this.href, 'access.redhat.com/')])" href="https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Developer_Studio/7.0/html/User_Guide/index.html">How To Use 7.0</a><br/><br/>
 
@@ -146,7 +147,7 @@
 <p><i><b style="color:#CC0000">Note:</b> If you install JBoss Developer Studio updates into an existing Eclipse 4.3 (Kepler) installation, you may need to tweak your eclipse.ini file to give Eclipse more memory than is allocated when installing JBoss Developer Studio. Please see the following tips:</i></p>
         <div class="proj_checklist">
             <ul>
-<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0/install-jbds-to-eclipse')" href="https://issues.jboss.org/browse/JBDS-1577#comment-12586050">Installing JBDS into Eclipse works, but runs out of memory</a></li>
+<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0/install-jbds-to-eclipse')" href="https://issues.jboss.org/browse/JBDS-1577#comment-12586050">Installing JBoss Developer Studio into Eclipse works, but runs out of memory</a></li>
 <li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0/starting-eclipse')" href="http://wiki.eclipse.org/IRC_FAQ#How_do_I_start_Eclipse.3F">How do I start Eclipse?</a></li>
 <li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/7.0/eclipse-memory-settings')" href="http://wiki.eclipse.org/Eclipse.ini#See_Also">Using eclipse.ini, increasing heap &amp; permgen memory</a></li>
 
