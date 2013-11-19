@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
 <!-- include JBDS Core Central discovery plugin -->
-<entry url="discovery/com.jboss.jbds.central.discovery_1.0.1.v20130119-0035-H249-GA_JBDS-2807.jar" permitCategories="true"/>
+<entry url="discovery/com.jboss.jbds.central.discovery_1.0.1.v20130119-0035-H249-GA_JBDS-2807_2.jar" permitCategories="true"/>
 <!-- include JBDS SOA Central discovery plugin too -->
 <entry url="discovery/com.jboss.jbds.central.discovery.soa-tooling_1.0.4.v20130802-1419-H5-GA.jar" permitCategories="true"/>
 </directory>
