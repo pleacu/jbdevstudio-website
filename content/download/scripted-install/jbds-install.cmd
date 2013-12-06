@@ -36,6 +36,10 @@ set installDir=%~n1
 for %%i in ("%baseInstallDir%\%installDir%") do @set installPath=%%~si
 :: echo installPath=%installPath%
 
+:: To install JBDS plus EAP (bundled installer), use installGroup=jbosseap
+:: TODO: use if-check against %installerJar% containing "-eap-", eg., http://stackoverflow.com/questions/7005951/batch-file-find-if-substring-is-in-string-not-in-a-file
+set installGroup=jbds
+
 :: Create installation script
 set installXML=c:\temp\%installDir%.install.xml
 :: echo installXML = %installXML%
@@ -48,7 +52,7 @@ echo ^<installpath^>%installPath%^</installpath^> >> %installXML%
 echo ^</com.jboss.jbds.installer.PathInputPanel^> >> %installXML%
 echo ^<com.jboss.jbds.installer.JREPathPanel id='jre'/^> >> %installXML%
 echo ^<com.jboss.jbds.installer.JBossAsSelectPanel id='as'^> >> %installXML%
-echo ^<installgroup^>jbds^</installgroup^> >> %installXML%
+echo ^<installgroup^>%installGroup%^</installgroup^> >> %installXML%
 echo ^</com.jboss.jbds.installer.JBossAsSelectPanel^> >> %installXML%
 echo ^<com.jboss.jbds.installer.UpdatePacksPanel id='updatepacks'/^> >> %installXML%
 echo ^<com.jboss.jbds.installer.DiskSpaceCheckPanel id='diskspacecheck'/^> >> %installXML%

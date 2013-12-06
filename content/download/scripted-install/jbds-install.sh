@@ -23,6 +23,11 @@ installerJar=$1
 installDir=${HOME}/${installerJar//.jar}
 installDir=${installDir##*/}
 
+installGroup=jbds
+if [[ ${installerJar/-eap-/} != ${installerJar} ]]; then #install EAP too
+  installGroup=jbosseap
+fi
+
 # Set installPath
 installPath=${baseInstallDir}/${installDir}
 # Create installation script
@@ -36,7 +41,7 @@ echo "<?xml version='1.0' encoding='UTF-8' standalone='no'?>
 </com.jboss.jbds.installer.PathInputPanel>
 <com.jboss.jbds.installer.JREPathPanel id='jre'/>
 <com.jboss.jbds.installer.JBossAsSelectPanel id='as'>
-<installgroup>jbds</installgroup>
+<installgroup>${installGroup}</installgroup>
 </com.jboss.jbds.installer.JBossAsSelectPanel>
 <com.jboss.jbds.installer.UpdatePacksPanel id='updatepacks'/>
 <com.jboss.jbds.installer.DiskSpaceCheckPanel id='diskspacecheck'/>
