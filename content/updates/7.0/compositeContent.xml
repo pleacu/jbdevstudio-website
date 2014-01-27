@@ -9,8 +9,9 @@
 -->
 <property name='p2.timestamp' value='1386885036000'/>
 </properties>
-<children size='2'>
+<children size='3'>
 <child location='../7.0.0/7.1.0.GA.core'/>
 <child location='../7.0.0/7.1.0.GA.target-platform'/>
+<child location='../7.0.0/7.0.0.GA.jbds-is'/>
 </children>
 </repository>
