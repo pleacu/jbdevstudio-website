@@ -2,6 +2,7 @@
 <directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
 <!-- include JBDS Core Central discovery plugin -->
 <entry url="discovery/com.jboss.jbds.central.discovery_7.1.0.Final-v20131208-2326-B531.jar" permitCategories="true"/>
-<!-- include JBDS SOA Central discovery plugin too -->
-<!-- <entry url="discovery/com.jboss.jbds.central.discovery.soa-tooling_1.0.0.v20120730-1417-H21-GA-SOA.jar" permitCategories="true"/> -->
+
+<!-- include JBDS Integration Stack Central discovery plugin -->
+<entry url="discovery/com.jboss.jbds.central.discovery.integration-stack_7.0.0.GA-v20140122-1758-B53.jar" permitCategories="true"/>
 </directory>
