@@ -3,7 +3,7 @@
 <repository name='JBoss Developer Studio 7.x - Extras' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
 <properties size='2'>
 <property name='p2.compressed' value='true'/>
-<property name='p2.timestamp' value='1394577139000'/>
+<property name='p2.timestamp' value='1394915544000'/>
 </properties>
 <children size='1'>
 <child location='http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.31.0.Final/REPO/'/>

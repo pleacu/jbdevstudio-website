@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
 <!-- include JBDS Core Central discovery plugin -->
-<entry url="discovery/com.jboss.jbds.central.discovery_7.1.1.Final-v20140311-1819-B605.jar" permitCategories="true"/>
+<entry url="discovery/com.jboss.jbds.central.discovery_7.1.1.Final-v20140315-1624-B607.jar" permitCategories="true"/>
 
 <!-- include JBDS Integration Stack Central discovery plugin -->
 <entry url="discovery/com.jboss.jbds.central.discovery.integration-stack_7.0.0.GA-v20140122-1758-B53.jar" permitCategories="true"/>
