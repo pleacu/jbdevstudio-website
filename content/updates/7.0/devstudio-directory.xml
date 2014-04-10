@@ -4,5 +4,5 @@
 <entry url="discovery/com.jboss.jbds.central.discovery_7.1.1.Final-v20140319-1408-B608.jar" permitCategories="true"/>
 
 <!-- include JBDS Integration Stack Central discovery plugin -->
-<entry url="discovery/com.jboss.jbds.central.discovery.integration-stack_7.0.0.GA-v20140122-1758-B53.jar" permitCategories="true"/>
+<entry url="discovery/com.jboss.jbds.central.discovery.integration-stack_7.0.1.GA-v20140409-1834-B7.jar" permitCategories="true"/>
 </directory>
