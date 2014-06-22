@@ -19,20 +19,20 @@
 
 <script type="text/javascript">
     <!--
-    function toggle()
+    function toggle(id,thumb,large)
     {
-      theImg=document.getElementById('screenshot');
-      if (theImg.src.indexOf("540.png")>0)
+      theImg=document.getElementById(id);
+      if (theImg.src.indexOf(thumb)>0)
       {
-        theImg.src=theImg.src.replace("jbds7-screenshot-browsersim-540.png","jbds7-screenshot-browsersim.png");
-        theImg.style.zIndex="1";
+        theImg.src=theImg.src.replace(thumb,large);
+        theImg.style.zIndex="10";
         theImg.style.position="absolute";
-        theImg.style.top="-150px";
-        theImg.style.left="-10px";
+        theImg.style.top="10px";
+        theImg.style.left="10px";
       }
       else
       {
-        theImg.src=theImg.src.replace("jbds7-screenshot-browsersim.png","jbds7-screenshot-browsersim-540.png");
+        theImg.src=theImg.src.replace(large,thumb);
         theImg.style.zIndex="0";
         theImg.style.position="relative";
         theImg.style.top="0px";
@@ -40,8 +40,8 @@
       }
     }
 
-    // given /earlyaccess/builds/stable/7.0.0.x/jbdevstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip and builds/
-    // return stable/7.0.0.x/jbdevstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip
+    // given /earlyaccess/builds/stable/7.0.0.x/jboss-devstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip and builds/
+    // return stable/7.0.0.x/jboss-devstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip
     function cleanURL(url,prefix)
     {
       return url.substring(url.lastIndexOf(prefix)+prefix.length);
@@ -72,20 +72,20 @@
 
   <div class="rightsidebar" style="width:280px;padding-right:0px;padding-left:10px;z-index:-1;float:right">
     <h4>Installation&#160;::&#160;Core&#160;Tooling</h4>
-    <p style="width:260px;margin-right:15px">1. If not already installed, download and install Oracle JDK or OpenJDK 7 (or 6).</p>
+    <p style="width:260px;margin-right:15px">1. If not already installed, download and install Oracle JDK or OpenJDK 7 (or 8).</p>
     <p style="width:260px;margin-right:15px">2. Download the 
 	<!-- <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/earlyaccess/8.0/"> -->
 	JBoss Developer Studio installer.
 	<!-- </a> -->
 	</p>
     <p style="width:260px;margin-right:15px">3. To start the installer, double-click the installer file or open a command line and enter 
-      <nobr><code>/path/to/java -jar jbdevstudio-*.jar</code></nobr></p>
+      <nobr><code>/path/to/java -jar jboss-devstudio-*.jar</code></nobr></p>
     <p style="width:260px;margin-right:15px">Installation <a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)])" href="https://devstudio.jboss.com/download/scripted-install/">can also be scripted</a>.</p>
     <br/>
 
     <h4>Supported OS + JVM Combinations</h4>
-    <p>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Microsoft Windows and OS X operating systems. If you require this feature, use a 32-bit JVM. Details are given below:<br/><br/>
-    <img src="https://devstudio.jboss.com/images/JBDS-supported-jvm-os-combinations.png"/></p>
+    <p>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Microsoft Windows and OS X operating systems. If you require this feature, use a 32-bit JVM. Details are given below:</p>
+    <p align="center"><a href="javascript:toggle('matrix','JBDS8-JVM-OS-matrix-thumb.png','JBDS8-JVM-OS-matrix-large.png')"><img border="0" id="matrix" src="../../images/JBDS8-JVM-OS-matrix-thumb.png"/><br/><small>Click to enlarge</small></a></p>
     <br/>
 
     <p>
@@ -130,7 +130,7 @@
             href=".">https://devstudio.jboss.com/updates/8.0-staging/</a></li>
         <li class="note"><a name="64bnote"></a>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Windows and OS X operating systems. If you require this, please use a 32-bit JVM instead. Details at right.</li>
       </ul>
-  <p align="center"><a href="javascript:toggle()"><img border="0" id="screenshot" src="https://devstudio.jboss.com/images/jbds7-screenshot-browsersim-540.png"/><br/><small>Click to enlarge</small></a></p>
+  <p align="center"><a href="javascript:toggle('screenshot','jbds7-screenshot-browsersim-540.png','jbds7-screenshot-browsersim.png')"><img border="0" id="screenshot" src="https://devstudio.jboss.com/images/jbds7-screenshot-browsersim-540.png"/><br/><small>Click to enlarge</small></a></p>
 
       <ul>
         <li class="note">To install <i>Third Party Extensions &amp; Tools</i>, previously located on the JBoss Developer Studio Extras site, launch JBoss Central 
@@ -142,7 +142,7 @@
 <p style="clear:both">&nbsp;</p>
 
 <hr/>
-<p><i><b style="color:#CC0000">Note:</b> If you install JBoss Developer Studio updates into an existing Eclipse 4.3 (Kepler) installation, you may need to tweak your eclipse.ini file to give Eclipse more memory than is allocated when installing JBoss Developer Studio. Please see the following tips:</i></p>
+<p><i><b style="color:#CC0000">Note:</b> If you install JBoss Developer Studio updates into an existing Eclipse 4.4 (Luna) installation, you may need to tweak your eclipse.ini file to give Eclipse more memory than is allocated when installing JBoss Developer Studio. Please see the following tips:</i></p>
         <div class="proj_checklist">
             <ul>
 <li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/8.0-staging/install-jbds-to-eclipse')" href="https://issues.jboss.org/browse/JBDS-1577#comment-12586050">Installing JBoss Developer Studio into Eclipse works, but runs out of memory</a></li>
