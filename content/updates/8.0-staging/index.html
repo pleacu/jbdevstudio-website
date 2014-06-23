@@ -19,20 +19,20 @@
 
 <script type="text/javascript">
     <!--
-    function toggle(id,thumb,large)
+    function toggle()
     {
-      theImg=document.getElementById(id);
-      if (theImg.src.indexOf(thumb)>0)
+      theImg=document.getElementById('screenshot');
+      if (theImg.src.indexOf("540.png")>0)
       {
-        theImg.src=theImg.src.replace(thumb,large);
-        theImg.style.zIndex="10";
+        theImg.src=theImg.src.replace("jbds7-screenshot-browsersim-540.png","jbds7-screenshot-browsersim.png");
+        theImg.style.zIndex="1";
         theImg.style.position="absolute";
-        theImg.style.top="10px";
-        theImg.style.left="10px";
+        theImg.style.top="-150px";
+        theImg.style.left="-10px";
       }
       else
       {
-        theImg.src=theImg.src.replace(large,thumb);
+        theImg.src=theImg.src.replace("jbds7-screenshot-browsersim.png","jbds7-screenshot-browsersim-540.png");
         theImg.style.zIndex="0";
         theImg.style.position="relative";
         theImg.style.top="0px";
@@ -84,8 +84,8 @@
     <br/>
 
     <h4>Supported OS + JVM Combinations</h4>
-    <p>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Microsoft Windows and OS X operating systems. If you require this feature, use a 32-bit JVM. Details are given below:</p>
-    <p align="center"><a href="javascript:toggle('matrix','JBDS8-JVM-OS-matrix-thumb.png','JBDS8-JVM-OS-matrix-large.png')"><img border="0" id="matrix" src="../../images/JBDS8-JVM-OS-matrix-thumb.png"/><br/><small>Click to enlarge</small></a></p>
+    <p>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Microsoft Windows and OS X operating systems. If you require this feature, use a 32-bit JVM. Details are given below:<br/><br/>
+    <img src="https://devstudio.jboss.com/images/JBDS-supported-jvm-os-combinations.png"/></p>
     <br/>
 
     <p>
@@ -130,7 +130,7 @@
             href=".">https://devstudio.jboss.com/updates/8.0-staging/</a></li>
         <li class="note"><a name="64bnote"></a>The Visual Page Editor in JBoss Developer Studio does not run with 64-bit JVMs on Windows and OS X operating systems. If you require this, please use a 32-bit JVM instead. Details at right.</li>
       </ul>
-  <p align="center"><a href="javascript:toggle('screenshot','jbds7-screenshot-browsersim-540.png','jbds7-screenshot-browsersim.png')"><img border="0" id="screenshot" src="https://devstudio.jboss.com/images/jbds7-screenshot-browsersim-540.png"/><br/><small>Click to enlarge</small></a></p>
+  <p align="center"><a href="javascript:toggle()"><img border="0" id="screenshot" src="https://devstudio.jboss.com/images/jbds7-screenshot-browsersim-540.png"/><br/><small>Click to enlarge</small></a></p>
 
       <ul>
         <li class="note">To install <i>Third Party Extensions &amp; Tools</i>, previously located on the JBoss Developer Studio Extras site, launch JBoss Central 
