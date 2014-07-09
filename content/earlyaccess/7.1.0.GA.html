@@ -41,8 +41,7 @@
       }
     }
 
-    // given /earlyaccess/builds/stable/*/jbdevstudio-product-sources-GA-v20131208-0703-B592.zip and builds/
-    // return stable/*/jbdevstudio-product-sources-GA-v20131208-0703-B592.zip
+    // given /path/to/jboss-devstudio-8.0.0.Beta2-source.zip, return jboss-devstudio-8.0.0.Beta2-source.zip
     function cleanURL(url,prefix)
     {
       return url.substring(url.lastIndexOf(prefix)+prefix.length);

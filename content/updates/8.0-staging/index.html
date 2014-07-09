@@ -40,8 +40,7 @@
       }
     }
 
-    // given /earlyaccess/builds/stable/7.0.0.x/jboss-devstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip and builds/
-    // return stable/7.0.0.x/jboss-devstudio-product-sources-7.0.0.v20120717.0103-H232-GA.zip
+    // given /path/to/jboss-devstudio-8.0.0.Beta2-source.zip, return jboss-devstudio-8.0.0.Beta2-source.zip
     function cleanURL(url,prefix)
     {
       return url.substring(url.lastIndexOf(prefix)+prefix.length);
