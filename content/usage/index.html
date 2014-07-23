@@ -61,9 +61,25 @@ Browser version we use the version of the product or if not present the
 version of Eclipse core runtime plugin.</p>
 <p>We also generate a random id for the installation so multiple
 startups from the same eclipse only count as one usage.&nbsp;</p>
-<p>Currently the only tracking we do is when a workspace starts up with
-the plugin installed. We might add more reporting in the future, if so
-this page will be updated with details.</p>
+
+<p>Some users events are tracked when they are happened, such as:
+<ul>
+	<li>- Software is installed through JBoss Central</li>
+	<li>- Server is created with New Serve wizard</li>
+	<li>- Project example is created</li>
+</ul>
+Other events and collected data are reported only once a day when the workspace starts up with the plug-in installed:
+<ul> 
+	<li>- Number of times BrowserSim, CordovaSim and HTML Preview are started</li>
+	<li>- IDE wizards completed</li>
+	<li>- Number of times JBoss Tools HTML/JSP editor is used</li>
+	<li>- Number of times Forge is started</li>
+</ul>
+</p>
+
+<p>We might add more reporting in the future, if so this page will be updated with details.</p>
+
+
 <p>If you want to inspect the source code for all of the above it can
 be found in GitHub: <a onClick="javascript: _gaq.push(['_trackPageview', '/usage/sourcecode']);" href="https://github.com/jbosstools/jbosstools-base/tree/master/usage">https://github.com/jbosstools/jbosstools-base/tree/master/usage</a></p>
 <p>&nbsp;</p>
