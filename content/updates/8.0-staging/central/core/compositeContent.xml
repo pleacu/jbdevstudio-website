@@ -4,7 +4,7 @@
 <properties size='2'>
 <property name='p2.compressed' value='true'/>
 <!-- date +%s000 -->
-<property name='p2.timestamp' value='1405312849000'/>
+<property name='p2.timestamp' value='1406095377000'/>
 </properties>
 <children size='2'>
 <child location='../../extras/'/>
