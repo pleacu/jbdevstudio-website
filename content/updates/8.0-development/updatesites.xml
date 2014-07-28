@@ -1,10 +1,4 @@
 <bookmarks>
 	<site url="https://devstudio.jboss.com/updates/8.0-development/"
-		selected="true" name="(Staging Site) JBoss Developer Studio 8.x - Core" />
-	<site url="https://devstudio.jboss.com/updates/8.0-development/integration-stack/"
-		selected="true" name="(Staging Site) JBoss Developer Studio 8.x - Integration Stack" />
-	<site url="https://devstudio.jboss.com/updates/8.0-development/extras/"
-		selected="true" name="(Staging Site) JBoss Developer Studio 8.x - Extras" />
-	<site url="https://devstudio.jboss.com/updates/8.0-development/techpreview/"
-		selected="false" name="(Staging Site) JBoss Developer Studio 8.x - Tech Preview" />
+		selected="true" name="(Milestone Site) JBoss Developer Studio 8.x - Core" />
 </bookmarks>
