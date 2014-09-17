@@ -40,7 +40,7 @@
       }
     }
 
-    // given /path/to/jboss-devstudio-8.0.0.Beta3-source.zip, return jboss-devstudio-8.0.0.Beta3-source.zip
+    // given /path/to/jboss-devstudio-8.0.0.CR1b-source.zip, return jboss-devstudio-8.0.0.CR1b-source.zip
     function cleanURL(url,prefix)
     {
       return url.substring(url.lastIndexOf(prefix)+prefix.length);
@@ -64,7 +64,7 @@
         <tr>
           <td align="right"><small>
 
-			<span style="font-size: x-small;">Build 8.0.0.Beta3</span>
+			<span style="font-size: x-small;">Build 8.0.0.CR1b</span>
 
           </small></td>
         </tr>
@@ -118,32 +118,61 @@
     <h2><a name="universal"></a>
 
   Latest Build:&nbsp;&nbsp;<span class="build">
-  8.0.0.Beta3
+  8.0.0.CR1b
 
   </span></h2>
 
       <ul>    
         <li class="multiplatform"><a onClick="javascript: _gaq.push(['_trackPageview', cleanBaseURL(this.href)]);" style="font-size: 18px;"
-            href=".">https://devstudio.redhat.com/updates/8.0-development/</a></li>
+            href=".">https://devstudio.redhat.com/updates/8.0-staging/</a></li>
       </ul>
   <p align="center"><a href="javascript:toggle()"><img border="0" id="screenshot" src="../../images/jbds7-screenshot-browsersim-540.png"/><br/><small>Click to enlarge</small></a></p>
 
       <ul>
-        <li class="note">To install <i>Third Party Extensions &amp; Tools</i>, previously located on the JBoss Developer Studio Extras site, launch JBoss Central 
+        <li class="note">To install <i>Third Party Extensions &amp; Tools</i>, previously located on the JBoss Developer Studio Extras site, launch <a href="#central">JBoss Central</a> 
   and select the Software/Update tab.</li>
       </ul>
-  <p align="center"><img border="0" id="screenshot" src="../../images/jbds8-central-software-update_540.png"/></p>
+  <p align="center"><a href="#central"><img border="0" id="screenshot" src="../../images/jbds8-central-software-update_540.png"/></a></p>
 </div>
 
-<p style="clear:both">&nbsp;</p>
+<p style="clear:both">&nbsp;<a name="central"></a></p>
+
+<hr/>
+
+    <p> JBoss Central is an update site from a user can resolve all upstream dependencies of a <a href="http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/">Red Hat JBoss Developer Studio</a> JBoss Central connector via a single URL. Simply launch JBoss Developer Studio, open JBoss Central, then select the Software/Update tab to explore this site for installable connectors.
+
+    <p>Content available from JBoss Central has been tested by Red Hat but support of the content varies depending on content type:</p>
+    <br/>
+  
+    <table cellspacing="2">
+      <tr valign="top"><td width="150"><div class="proj_checklist"><ul><li><a class=link>Supported</a></li></ul></div></td><td><div class="proj_checklist"><ul><span class="proj_checklist">These plug-ins are hosted by Red Hat, tested by Red Hat to ensure compatibility with JBoss Developer Studio, and <b style="color:darkred">supported</b> by Red Hat.</ul></div></td></tr>
+      <tr valign="top"><td width="150"><div class="proj_checklist"><ul><li><a class=link>Tested</a></li></ul></div></td><td><div class="proj_checklist"><ul><span class="proj_checklist">These plug-ins are hosted by Red Hat and <b style="color:darkred">tested</b> by Red Hat, but support is most likely provided by another vendor. Red Hat attempts to report issues to providers as required, should any arise.</ul></div></td></tr>
+      <tr valign="top"><td width="150"><div class="proj_checklist"><ul><li><a class=link>Technology Preview</a></li></ul></div></td><td><div class="proj_checklist"><ul><span class="proj_checklist">These plug-ins are tested by Red Hat, often with documentation describing known issues. The expectation is that these <b style="color:darkred">technology preview</b> plug-ins <i>may</i> one day evolve sufficiently to be considered <b style="color:darkred">Tested</b> or <b style="color:darkred">Supported</b>, but this is not guaranteed.</ul></div></td></tr>
+      
+      <tr valign="top"><td width="150"><div class="proj_checklist"><ul>
+        <li><a class=link>Experimental</a></li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;or&nbsp;-
+        <li><a class=link>Early Access</a></li>
+      </ul></div></td><td><div class="proj_checklist"><ul><span class="proj_checklist">These are <b style="color:darkred">experimental</b> plug-ins. It is possible that their content may change at any time and without prior notice. Red Hat provides <a href="../../../earlyaccess/8.0-staging/"><b style="color:darkred"><u>early access</u></b></a> to this content so that it can be evaluated + monitored, in order to execute appropriate tests + report issues to plug-in providers as required. May evolve into <b style="color:darkred">Technology Preview</b> content, but this is not guaranteed.</ul></div></td></tr>
+    </table>
+
+    <p>Most content in JBoss Central is hosted (redistributed) by Red Hat; however, some connectors cannot be redistributed due to license terms or other constraints, and therefore have been marked accordingly:</p>
+    <br/>
+  
+    <table cellspacing="2">
+      <tr valign="top"><td width="150"><div class="proj_checklist"><ul><li><a class=link>External</a></li></ul></div></td><td><div class="proj_checklist"><ul><span class="proj_checklist">These plug-ins are tested by Red Hat but, as the plug-ins are hosted by <b style="color:darkred">external</b> third party providers, it is possible that content may change at any time and without prior notice. Red Hat attempts to monitor the associated third party sites and execute appropriate tests on plug-ins, reporting issues to plug-in providers as required.</ul></div></td></tr>
+    </table>
+
+
+
 
 <hr/>
 <p><i><b style="color:#CC0000">Note:</b> If you install JBoss Developer Studio updates into an existing Eclipse 4.4 (Luna) installation, you may need to tweak your eclipse.ini file to give Eclipse more memory than is allocated when installing JBoss Developer Studio. Please see the following tips:</i></p>
         <div class="proj_checklist">
             <ul>
-<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/8.0-development/install-jbds-to-eclipse')" href="https://issues.jboss.org/browse/JBDS-1577#comment-12586050">Installing JBoss Developer Studio into Eclipse works, but runs out of memory</a></li>
-<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/8.0-development/starting-eclipse')" href="http://wiki.eclipse.org/IRC_FAQ#How_do_I_start_Eclipse.3F">How do I start Eclipse?</a></li>
-<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/8.0-development/eclipse-memory-settings')" href="http://wiki.eclipse.org/Eclipse.ini#See_Also">Using eclipse.ini, increasing heap &amp; permgen memory</a></li>
+<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/8.0-staging/install-jbds-to-eclipse')" href="https://issues.jboss.org/browse/JBDS-1577#comment-12586050">Installing JBoss Developer Studio into Eclipse works, but runs out of memory</a></li>
+<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/8.0-staging/starting-eclipse')" href="http://wiki.eclipse.org/IRC_FAQ#How_do_I_start_Eclipse.3F">How do I start Eclipse?</a></li>
+<li><a onClick="javascript: _gaq.push(['_trackPageview', 'updates/8.0-staging/eclipse-memory-settings')" href="http://wiki.eclipse.org/Eclipse.ini#See_Also">Using eclipse.ini, increasing heap &amp; permgen memory</a></li>
 
 </ul>
 </div>
