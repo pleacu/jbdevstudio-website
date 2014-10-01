@@ -3,9 +3,10 @@
 <repository name='JBoss Developer Studio 8.x - Central - Core' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
 <properties size='2'>
 <property name='p2.compressed' value='true'/>
-<property name='p2.timestamp' value='1410992567000'/>
+<property name='p2.timestamp' value='1412171920000'/>
 </properties>
+<!-- this site is deprecated. See https://devstudio.redhat.com/updates/8.0-development/ -->
 <children size='1'>
-<child location='http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.40.0.CR1-SNAPSHOT/REPO/'/>
+<child location='https://devstudio.redhat.com/updates/8.0-development/'/>
 </children>
 </repository>

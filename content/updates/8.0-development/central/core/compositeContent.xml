@@ -4,10 +4,10 @@
 <properties size='2'>
 <property name='p2.compressed' value='true'/>
 <!-- date +%s000 -->
-<property name='p2.timestamp' value='1406095377000'/>
+<property name='p2.timestamp' value='1412171920000'/>
 </properties>
-<children size='2'>
-<child location='../../extras/'/>
-<child location='../../'/>
+<!-- this site is deprecated. See https://devstudio.redhat.com/updates/8.0-development/ -->
+<children size='1'>
+<child location='https://devstudio.redhat.com/updates/8.0-development/'/>
 </children>
 </repository>
