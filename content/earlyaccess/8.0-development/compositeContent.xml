@@ -11,7 +11,7 @@
 </properties>
 <children size='2'>
 <!-- JBDS + TP + Central -->
-<child location='../../updates/8.0-staging/'/>
+<child location='../../updates/8.0-development/'/>
 <!-- JBDS Early Access TP -->
 <child location='../../updates/8.0.0/jboss-devstudio-8.0.0.CR1b-updatesite-earlyaccess/'/>
 </children>
