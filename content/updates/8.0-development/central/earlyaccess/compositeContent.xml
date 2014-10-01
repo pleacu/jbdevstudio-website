@@ -7,7 +7,7 @@
 <property name='p2.timestamp' value='1412171920000'/>
 </properties>
 <!-- this site is deprecated. See https://devstudio.redhat.com/earlyaccess/8.0-development/ -->
-<children size='3'>
+<children size='1'>
 <child location='https://devstudio.redhat.com/earlyaccess/8.0-development/'/>
 </children>
 </repository>
