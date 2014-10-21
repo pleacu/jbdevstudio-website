@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
+<!-- include JBDS Core Central discovery plugin -->
 <entry url="discovery/com.jboss.jbds.central.discovery.earlyaccess_8.0.0.Final-v20141017-1053-B366.jar" permitCategories="true"/>
 <entry url="discovery/com.jboss.jbds.central.discovery_8.0.0.Final-v20141017-1053-B366.jar" permitCategories="true"/>
+
+<!-- include JBDS Integration Stack Central discovery plugin 
+<entry url="discovery/com.jboss.jbds.central.discovery.integration-stack.earlyaccess_8.0.0.Alpha2-v20141001-1500-B67.jar" permitCategories="true"/>
+-->
 </directory>
