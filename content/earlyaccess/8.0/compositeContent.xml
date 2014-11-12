@@ -9,7 +9,7 @@
 -->
 <property name='p2.timestamp' value='1415819515000'/>
 </properties>
-<children size='4'>
+<children size='3'>
 <!-- JBDS + TP + Central -->
 <child location='../../updates/8.0/'/>
 <!-- JBDS Early Access TP -->
