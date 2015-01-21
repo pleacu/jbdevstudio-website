@@ -9,6 +9,7 @@
 -->
 <property name='p2.timestamp' value='1412098213000'/>
 </properties>
-<children size='0'>
+<children size='1'>
+  <child location='../../8.0.0/8.0.0.Alpha2.jbds-is/'/>
 </children>
 </repository>
