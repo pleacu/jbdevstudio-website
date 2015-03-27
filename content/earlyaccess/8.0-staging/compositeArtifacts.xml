@@ -15,7 +15,7 @@
 <!-- JBDS Early Access TP -->
 <child location='../../updates/8.0.0/jboss-devstudio-8.1.0.GA-updatesite-earlyaccess/'/>
 <!-- JBDSIS -->
-<child location='../8.0.0/8.0.0.GA.jbds-is/'/>
-<child location='../8.0.0/8.0.0.GA.jbds-is/earlyaccess/'/>
+<child location='../../static/updates/8.0.0/8.0.0.GA.jbds-is/'/>
+<child location='../../static/updates/8.0.0/8.0.0.GA.jbds-is/earlyaccess/'/>
 </children>
 </repository>
