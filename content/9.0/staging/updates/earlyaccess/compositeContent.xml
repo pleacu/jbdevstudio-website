@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='JBoss Developer Studio 9.x - Early Access' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+<properties size='2'>
+<property name='p2.compressed' value='true'/>
+<!-- 
+     get new time w/ 
+      date +%s000
+-->
+<property name='p2.timestamp' value='1424101291000'/>
+</properties>
+<children size='3'>
+<!-- JBDS + TP + Central + Central TP -->
+<child location='../'/>
+<!-- JBDS Early Access  -->
+<child location='../../../../9.0.0/jboss-devstudio-9.0.0.Alpha2-updatesite-earlyaccess/'/>
+<child location='../../../../9.0.0/jboss-devstudio-9.0.0.Alpha2-target-platform-earlyaccess/'/>
+<!-- TODO: add JBDSIS 9 when ready -->
+
+</children>
+</repository>
