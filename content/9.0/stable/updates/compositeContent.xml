@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='JBoss Developer Studio 9 - Core + Central' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+<properties size='2'>
+<property name='p2.compressed' value='true'/>
+<!-- 
+     get new time w/ 
+      date +%s000
+-->
+<property name='p2.timestamp' value='1424269905000'/>
+</properties>
+<!-- JBDS + TP + Central + Central TP -->
+<!-- children size='4'>
+<child location='../../../9.0.0/jboss-devstudio-9.0.0.Alpha2-updatesite-core/'/>
+<child location='../../../9.0.0/jboss-devstudio-9.0.0.Alpha2-target-platform/'/>
+<child location='../../../9.0.0/jboss-devstudio-9.0.0.Alpha2-updatesite-central/'/>
+<child location='../../../9.0.0/jboss-devstudio-9.0.0.Alpha2-target-platform-central/'/>
+</children-->
+<children size='0'/>
+</repository>
