@@ -7,7 +7,7 @@
      get new time w/ 
       date +%s000
 -->
-<property name='p2.timestamp' value='1439298586000'/>
+<property name='p2.timestamp' value='1440611899000'/>
 </properties>
 <children size='4'>
 <!-- JBDS + TP + Central -->
@@ -15,7 +15,7 @@
 <!-- JBDS Early Access TP -->
 <child location='../../updates/8.0.0/jboss-devstudio-8.1.0.GA-updatesite-earlyaccess/'/>
 <!-- JBDSIS -->
-<child location='../../static/updates/8.0.0/8.0.3.CR2.jbds-is/'/>
-<child location='../../static/updates/8.0.0/8.0.3.CR2.jbds-is/earlyaccess/'/>
+<child location='../../static/updates/8.0.0/8.0.3.GA.jbds-is/'/>
+<child location='../../static/updates/8.0.0/8.0.3.GA.jbds-is/earlyaccess/'/>
 </children>
 </repository>
