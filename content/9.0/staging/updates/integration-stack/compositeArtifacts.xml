@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
-<repository name='JBoss Developer Studio 8.x - Integration Stack' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+<repository name='JBoss Developer Studio 9.x - Integration Stack' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
 <properties size='2'>
 <property name='p2.compressed' value='true'/>
 <!-- 
@@ -9,7 +9,8 @@
 -->
 <property name='p2.timestamp' value='1412098203000'/>
 </properties>
-<children size='1'>
-  <child location='../../8.0.0/8.0.0.Alpha2.jbds-is/'/>
+<children size='2'>
+  <child location='./9.0.0.Alpha2.jbds-is/'/>
+  <child location='./9.0.0.Alpha2.jbds-is/targetplatform'/>
 </children>
 </repository>

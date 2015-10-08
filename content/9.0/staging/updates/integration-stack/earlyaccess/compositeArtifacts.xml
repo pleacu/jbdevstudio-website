@@ -10,7 +10,7 @@
 <property name='p2.timestamp' value='1440611224000'/>
 </properties>
 <children size='2'>
-  <child location='../9.0.0.Alpha2.jbds-is/earlyaccess'/>
-  <child location='../9.0.0.Alpha2.jbds-is/earlyaccess/targetplatform'/>
+  <child location='../9.0.0.Alpha2/earlyaccess'/>
+  <child location='../9.0.0.Alpha2/earlyaccess/targetplatform'/>
 </children>
 </repository>
