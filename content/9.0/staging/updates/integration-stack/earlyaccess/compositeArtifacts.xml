@@ -9,8 +9,11 @@
 -->
 <property name='p2.timestamp' value='1440611224000'/>
 </properties>
-<children size='2'>
-  <child location='../9.0.0.Alpha2/earlyaccess'/>
-  <child location='../9.0.0.Alpha2/earlyaccess/targetplatform'/>
+<children size='5'>
+  <child location='https://devstudio.jboss.com/9.0/stable/updates/'/>
+  <child location='https://devstudio.redhat.com/9.0/development/updates/integration-stack/'/>
+  <child location='https://devstudio.jboss.com/targetplatforms/jbdsistarget/9.0.0.Beta1.jbds-is-target-platform/jbdsis/REPO/'/>
+  <child location='../9.0.0.Alpha2.jbds-is/earlyaccess/'/>
+  <child location='../9.0.0.Alpha2.jbds-is/earlyaccess/targetplatform/'/>
 </children>
 </repository>
