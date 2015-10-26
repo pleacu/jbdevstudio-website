@@ -11,9 +11,9 @@
 </properties>
 <children size='4'>
   <!-- IS ONLY -->
-  <child location='https://devstudio.redhat.com/9.0/development/updates/integration-stack/'/>
-  <child location='https://devstudio.redhat.com/targetplatforms/jbdsistarget/9.0.0.Beta1.jbds-is-target-platform/jbdsis/REPO/'/>
-  <child location='../9.0.0.Alpha2.jbds-is/earlyaccess/'/>
-  <child location='../9.0.0.Alpha2.jbds-is/earlyaccess/targetplatform/'/>
+  <child location='../master/'/>
+  <child location='../master/targetplatform/'/>
+  <child location='../master/earlyaccess/'/>
+  <child location='../master/earlyaccess/targetplatform/'/>
 </children>
 </repository>
