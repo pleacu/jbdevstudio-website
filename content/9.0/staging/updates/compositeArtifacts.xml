@@ -7,9 +7,9 @@
   </properties>
   <children size='5'>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.51.2.Beta1-SNAPSHOT/REPO/'/>
-  	<child location='https://devstudio.redhat.com/9.0/staging/updates/core/9.0.0.Beta1/'/>
+  	<child location='https://devstudio.redhat.com/9.0/staging/updates/core/9.1.0.Beta1/'/>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.51.0.Beta1-SNAPSHOT/REPO/'/>
-  	<child location='https://devstudio.redhat.com/9.0/staging/updates/central/9.0.0.Beta1/'/>
+  	<child location='https://devstudio.redhat.com/9.0/staging/updates/central/9.1.0.Beta1/'/>
   	<child location='https://devstudio.redhat.com/9.0/staging/updates/integration-stack/'/>
   </children>
 </repository>
