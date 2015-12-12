@@ -8,8 +8,8 @@
   <children size='5'>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.51.0.Final/REPO/'/>
   	<child location='https://devstudio.redhat.com/9.0/stable/updates/core/9.0.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/9.0/stable/updates/central/9.0.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/9.0/stable/updates/integration-stack/'/>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.50.0.Final-SNAPSHOT/REPO/'/>
+    <child location='https://devstudio.redhat.com/9.0/stable/updates/central/9.0.0.GA/'/>
+    <child location='https://devstudio.redhat.com/9.0/stable/updates/integration-stack/'/>
   </children>
 </repository>
