@@ -9,10 +9,11 @@
 -->
 <property name='p2.timestamp' value='1455309749000'/>
 </properties>
-<children size='4'>
+<children size='2'>
   <!-- IS ONLY -->
+  <!-- uncomment when a released component is available
   <child location='../9.0.0.Beta1/'/>
-  <child location='../9.0.0.Beta1/targetplatform/'/>
+  <child location='../9.0.0.Beta1/targetplatform/'/> -->
   <child location='../9.0.0.Beta1/earlyaccess/'/>
   <child location='../9.0.0.Beta1/earlyaccess/targetplatform/'/>
 </children>
