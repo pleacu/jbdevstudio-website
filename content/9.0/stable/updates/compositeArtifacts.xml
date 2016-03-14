@@ -2,14 +2,16 @@
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name='Red Hat JBoss Developer Studio - Core + Central Update Site' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1444834809000'/>
+    <property name='p2.timestamp' value='1457972311000'/>
     <property name='p2.compressed' value='true'/>
   </properties>
-  <children size='5'>
+  <children size='6'>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.51.0.Final/REPO/'/>
   	<child location='https://devstudio.redhat.com/9.0/stable/updates/core/9.0.0.GA/'/>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.50.0.Final-SNAPSHOT/REPO/'/>
     <child location='https://devstudio.redhat.com/9.0/stable/updates/central/9.0.0.GA/'/>
     <child location='https://devstudio.redhat.com/9.0/stable/updates/integration-stack/'/>
+    <!-- JBIDE-21821 add egit 4.1.1 site -->
+    <child location='https://devstudio.redhat.com/updates/requirements/egit/v4.1.1.201511131810-r/'/>
   </children>
 </repository>
