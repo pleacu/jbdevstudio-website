@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='JBoss Developer Studio Integration Stack Central - composite staging site' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1457370465241'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <children size='7'>
+  	<child location='https://devstudio.redhat.com/9.0/development/updates/core/9.1.0.Beta2'/>
+  	<child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.52.0.Beta2-SNAPSHOT/REPO/'/>
+  	<child location='https://devstudio.redhat.com/9.0/development/updates/integration-stack/9.0.0.Beta1'/>
+  	<child location='https://devstudio.redhat.com/9.0/development/updates/integration-stack/9.0.0.Beta1/earlyaccess'/>
+  	<child location='https://devstudio.jboss.com/targetplatforms/jbdsistarget/9.0.1.Beta1b.jbds-is-target-platform/jbdsis/REPO/'/>
+  	<child location='https://devstudio.jboss.com/targetplatforms/jbdsistarget/9.0.1.Beta1b.jbds-is-target-platform/jbdsis/earlyaccess/REPO/'/>
+  	<child location='https://devstudio.jboss.com/9.0/development/updates/'/>
+  </children>
+</repository>
