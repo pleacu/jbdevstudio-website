@@ -7,14 +7,12 @@
      get new time w/ 
       date +%s000
 -->
-<property name='p2.timestamp' value='1457376392000'/>
+<property name='p2.timestamp' value='1459792114000'/>
 </properties>
-<children size='2'>
+<children size='3'>
   <!-- IS ONLY -->
-  <!-- uncomment when a released component is available
-  <child location='../9.0.0.Beta1/'/>
-  <child location='../9.0.0.Beta1/targetplatform/'/> -->
-  <child location='../9.0.0.Beta1/earlyaccess/'/>
-  <child location='../9.0.0.Beta1/earlyaccess/targetplatform/'/>
+  <child location='../9.0.0.CR1/earlyaccess/'/>
+  <child location='../9.0.0.CR1/earlyaccess/targetplatform/'/>
+  <child location='../9.0.0.CR1/targetplatform/'/>
 </children>
 </repository>
