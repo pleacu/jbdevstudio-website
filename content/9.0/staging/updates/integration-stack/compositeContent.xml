@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeMetadataRepository version='1.0.0'?>
-<repository name='Red Hat JBoss Developer Studio Integration Stack Update SIte' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+<repository name='Red Hat JBoss Developer Studio Integration Stack Update Site' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
 <properties size='2'>
 <property name='p2.compressed' value='true'/>
 <!-- 
@@ -11,6 +11,6 @@
 </properties>
 <children size='2'>
    <child location='9.0.0.GA/'/>
-   <child location='9.0.0.GA/targetplatform/'/> -->
+   <child location='9.0.0.GA/targetplatform/'/>
 </children>
 </repository>
