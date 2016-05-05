@@ -9,11 +9,9 @@
 -->
 <property name='p2.timestamp' value='1444652559000'/>
 </properties>
-<children size='0'>
+<children size='2'>
   <!-- IS ONLY -->
-  <!--
-  <child location='9.0.0.Beta1/'/>
-  <child location='9.0.0.Beta1/targetplatform/'/>
-  -->
+  <child location='9.0.0.GA/'/>
+  <child location='9.0.0.GA/targetplatform/'/>
 </children>
 </repository>
