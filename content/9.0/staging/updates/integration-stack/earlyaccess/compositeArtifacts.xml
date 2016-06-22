@@ -7,13 +7,12 @@
      get new time w/ 
       date +%s000
 -->
-<property name='p2.timestamp' value='1444653063000'/>
+<property name='p2.timestamp' value='1466617274000'/>
 </properties>
-<children size='3'>
+<children size='2'>
   <!-- IS ONLY -->
-  <child location='../9.0.0.GA/earlyaccess/'/>
-  <child location='../9.0.0.GA/earlyaccess/targetplatform/'/>
-  <!-- JBTIS-729 add Birt deps into EA site so that this can be installed from devstudio 10 (Neon) -->
-  <child location='http://download.jboss.org/jbosstools/updates/requirements/birt/4.5.0.v201510231925/'/>
+  <child location='../9.0.1.CR1/earlyaccess/'/>
+  <child location='https://devstudio.redhat.com/targetplatforms/jbdsistarget/9.0.1.GA.jbds-is-target-platform/jbdsis/earlyaccess/REPO/'/>
+  <!-- <child location='../9.0.0.GA/earlyaccess/targetplatform/'/> -->
 </children>
 </repository>
