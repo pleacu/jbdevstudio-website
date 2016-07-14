@@ -7,12 +7,11 @@
      get new time w/ 
       date +%s000
 -->
-<property name='p2.timestamp' value='1466617281000'/>
+<property name='p2.timestamp' value='1468516162000'/>
 </properties>
 <children size='2'>
   <!-- IS ONLY -->
-  <child location='../9.0.1.CR1/earlyaccess/'/>
-  <child location='https://devstudio.redhat.com/targetplatforms/jbdsistarget/9.0.1.GA.jbds-is-target-platform/jbdsis/earlyaccess/REPO/'/>
-  <!-- <child location='../9.0.0.GA/earlyaccess/targetplatform/'/> -->
+  <child location='../9.0.1.CR2/earlyaccess/'/>
+  <child location='../9.0.1.CR2/earlyaccess/targetplatform/'/>
 </children>
 </repository>
