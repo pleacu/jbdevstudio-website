@@ -10,8 +10,8 @@
 <property name='p2.timestamp' value='1462473417000'/>
 </properties>
 <children size='2'>
-  <!-- IS ONLY -->
-  <child location='../9.0.0.GA/earlyaccess/'/>
-  <child location='../9.0.0.GA/earlyaccess/targetplatform/'/>
+   <!-- IS ONLY -->
+   <child location='../9.0.1.GA/earlyaccess/'/>
+   <child location='../9.0.1.GA/earlyaccess/targetplatform/'/>
 </children>
 </repository>
