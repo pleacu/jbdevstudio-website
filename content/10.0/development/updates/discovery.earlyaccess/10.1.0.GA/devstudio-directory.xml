@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
+<entry url="plugins/com.jboss.jbds.central.discovery.earlyaccess_10.1.0.Final-v20160902-1915-B45.jar" permitCategories="true"/>
+<entry url="plugins/com.jboss.jbds.central.discovery_10.1.0.Final-v20160902-1915-B45.jar" permitCategories="true"/>
+<entry url="plugins/com.jboss.jbds.central.discovery.integration-stack_10.0.0.Alpha1-SNAPSHOT-v20130101-0001-B212.jar" permitCategories="true"/>
+<entry url="plugins/com.jboss.jbds.central.discovery.integration-stack.earlyaccess_10.0.0.Alpha1-SNAPSHOT-v20130101-0001-B212.jar" permitCategories="true"/>
+</directory>
