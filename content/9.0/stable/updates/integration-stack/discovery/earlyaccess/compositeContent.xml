@@ -9,8 +9,7 @@
 -->
 <property name='p2.timestamp' value='1465847910000'/>
 </properties>
-<children size='1'>
+<children size='0'>
    <!-- IS ONLY -->
-   <child location='../9.0.1.GA/earlyaccess/'/>
 </children>
 </repository>
