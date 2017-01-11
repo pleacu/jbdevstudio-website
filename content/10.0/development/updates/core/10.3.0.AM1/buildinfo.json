@@ -1,0 +1,60 @@
+{
+    "timestamp" : 1483725745934,
+    "revision" : {
+        "HEAD" : "8e9e8cbb16ec32e992afcb69ebe6a99411cfa875",
+        "currentBranch" : "HEAD",
+        "knownReferences" : [{
+            "name" : "origin",
+            "url" : "git@github.com:jbdevstudio/jbdevstudio-product.git",
+            "ref" : "master"
+        }]
+    },
+    "properties" : {
+        "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+        "java.version" : "1.8.0_111",
+        "user.dir" : "/mnt/hudson_workspace/workspace/devstudio.product_master",
+        "os.arch" : "amd64",
+        "RELEASE" : "null",
+        "BUILD_ALIAS" : "null",
+        "JOB_NAME" : "devstudio.product_master",
+        "os.version" : "3.10.0-514.el7.x86_64",
+        "BUILD_NUMBER" : "6855",
+        "TARGET_PLATFORM_VERSION" : "null",
+        "NODE_NAME" : "null",
+        "HOSTNAME" : "vmg120.hosts.mwqe.eng.bos.redhat.com",
+        "java.vendor" : "Oracle Corporation",
+        "os.name" : "Linux",
+        "ZIPSUFFIX" : "null",
+        "WORKSPACE" : "/mnt/hudson_workspace/workspace/devstudio.product_master"
+    },
+    "upstream" : {"http://download.jboss.org/jbosstools/neon/snapshots/updates/core/master/" : {
+        "timestamp" : 1483723649805,
+        "revision" : {
+            "HEAD" : "23a8b538c7cf47d026983e3abef81c16762e8094",
+            "currentBranch" : "HEAD",
+            "knownReferences" : [{
+                "name" : "origin",
+                "url" : "git://github.com/jbosstools/jbosstools-build-sites.git",
+                "ref" : "master"
+            }]
+        },
+        "properties" : {
+            "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+            "java.version" : "1.8.0_111",
+            "user.dir" : "/mnt/hudson_workspace/workspace/jbosstools-build-sites.aggregate.site_master/sources/aggregate/site",
+            "os.arch" : "amd64",
+            "RELEASE" : "null",
+            "BUILD_ALIAS" : "null",
+            "JOB_NAME" : "null",
+            "os.version" : "2.6.32-642.11.1.el6.x86_64",
+            "BUILD_NUMBER" : "null",
+            "TARGET_PLATFORM_VERSION" : "null",
+            "NODE_NAME" : "null",
+            "HOSTNAME" : "dev61.mw.lab.eng.bos.redhat.com",
+            "java.vendor" : "Oracle Corporation",
+            "os.name" : "Linux",
+            "ZIPSUFFIX" : "null",
+            "WORKSPACE" : "/mnt/hudson_workspace/workspace/jbosstools-build-sites.aggregate.site_master/sources/aggregate/site"
+        }
+    }}
+}
