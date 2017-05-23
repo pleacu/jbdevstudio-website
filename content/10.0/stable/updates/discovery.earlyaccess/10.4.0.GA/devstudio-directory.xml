@@ -2,5 +2,5 @@
 <directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
 <entry url="plugins/com.jboss.jbds.central.discovery.earlyaccess_10.4.0.Final-v20170511-1951-B1616.jar" permitCategories="true"/>
 <entry url="plugins/com.jboss.jbds.central.discovery_10.4.0.Final-v20170511-1951-B1616.jar" permitCategories="true"/>
-<entry url="plugins/com.jboss.jbds.central.discovery.integration-stack_10.2.0.GA-v20170324-1312-B3.jar" permitCategories="true"/>
+<entry url="plugins/com.jboss.jbds.central.discovery.integration-stack_10.3.0.GA-v20170522-1024-B15.jar" permitCategories="true"/>
 </directory>

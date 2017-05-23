@@ -5,10 +5,11 @@
     <property name='p2.timestamp' value='1495035700000'/>
     <property name='p2.compressed' value='true'/>
   </properties>
-  <children size='4'>
+  <children size='5'>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.63.0.Final/REPO/'/>
   	<child location='https://devstudio.redhat.com/static/10.0/stable/updates/core/10.4.0.GA/'/>
   	<child location='https://devstudio.redhat.com/static/10.0/stable/updates/central/10.4.0.GA/'/>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.63.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://devstudio.redhat.com/10.0/stable/updates/integration-stack/'/>
   </children>
 </repository>
