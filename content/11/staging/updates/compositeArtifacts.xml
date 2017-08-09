@@ -7,8 +7,8 @@
   </properties>
   <children size='4'>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.70.2.Final/REPO/'/>
-  	<child location='https://devstudio.redhat.com/11/staging/updates/core/11.0.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/11/staging/updates/central/11.0.0.GA/'/>
+  	<child location='https://devstudio.redhat.com/11/staging/updates/core/11.0.0.GA-0/'/>
+  	<child location='https://devstudio.redhat.com/11/staging/updates/central/11.0.0.GA-0/'/>
   	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.70.0.Final-SNAPSHOT/REPO/'/>
   </children>
 </repository>
