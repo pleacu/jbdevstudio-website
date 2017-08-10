@@ -2,14 +2,14 @@
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name='Red Hat Developer Studio - Core + Central Update Site' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1498189487000'/>
+    <property name='p2.timestamp' value='1502396761000'/>
     <property name='p2.compressed' value='true'/>
   </properties>
-  <children size='0'>
-  	<!-- <child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.70.0.Final/REPO/'/>
-  	<child location='https://devstudio.redhat.com/static/11/stable/updates/core/11.0.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/static/11/stable/updates/central/11.0.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.70.0.Final-SNAPSHOT/REPO/'/>
-  	<child location='https://devstudio.redhat.com/11/stable/updates/integration-stack/'/> -->
+  <children size='5'>
+    <child location='https://devstudio.redhat.com/targetplatforms/jbdevstudiotarget/4.70.2.Final/REPO/'/>
+    <child location='https://devstudio.redhat.com/static/11/stable/updates/core/11.0.0.GA/'/>
+    <child location='https://devstudio.redhat.com/static/11/stable/updates/central/11.0.0.GA/'/>
+    <child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.70.0.Final-SNAPSHOT/REPO/'/>
+    <child location='https://devstudio.redhat.com/11/development/updates/integration-stack/'/>
   </children>
 </repository>
