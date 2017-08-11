@@ -3,7 +3,7 @@
 <repository name='Red Hat JBoss Developer Studio - Fuse Tools Extras Site' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
 <properties size='2'>
 <property name='p2.compressed' value='true'/>
-<property name='p2.timestamp' value='1502484357000'/>
+<property name='p2.timestamp' value='1502489567000'/>
 </properties>
 <children size='1'>
 <child location='https://devstudio.redhat.com/static/11/development/updates/fuse-extras/'/>
