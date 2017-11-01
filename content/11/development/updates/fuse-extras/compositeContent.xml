@@ -1,11 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?compositeMetadataRepository version='1.0.0'?>
-<repository name='Red Hat JBoss Developer Studio - Fuse Tools Extras Site' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
-<properties size='2'>
-<property name='p2.compressed' value='true'/>
-<property name='p2.timestamp' value='1502489567000'/>
-</properties>
+<?xml version='1.0' encoding='UTF-8'?><?compositeArtifactRepository version='1.0.0'?>
+<repository name='static/11/development/updates/fuse-extras' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+<properties size='2'><property name='p2.timestamp' value='1509569870000'/><property name='p2.compressed' value='true'/></properties>
 <children size='1'>
-<child location='https://devstudio.redhat.com/static/11/development/updates/fuse-extras/'/>
+<child location='11.1.0.GA/'/>
 </children>
 </repository>
+
