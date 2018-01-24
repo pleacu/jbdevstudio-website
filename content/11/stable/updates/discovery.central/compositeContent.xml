@@ -2,13 +2,13 @@
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='Red Hat Developer Studio - Core + Central Update Site' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1510938860000'/>
+    <property name='p2.timestamp' value='1516759895000'/>
     <property name='p2.compressed' value='true'/>
   </properties>
   <children size='4'>
-  	<child location='https://devstudio.redhat.com/targetplatforms/devstudiotarget/4.71.0.Final/REPO/'/>
-  	<child location='https://devstudio.redhat.com/static/11/stable/updates/core/11.1.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/static/11/stable/updates/central/11.1.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.71.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://devstudio.redhat.com/targetplatforms/devstudiotarget/4.72.0.Final/REPO/'/>
+  	<child location='https://devstudio.redhat.com/static/11/stable/updates/core/11.2.0.GA/'/>
+  	<child location='https://devstudio.redhat.com/static/11/stable/updates/central/11.2.0.GA/'/>
+  	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.72.0.Final-SNAPSHOT/REPO/'/>
   </children>
 </repository>
