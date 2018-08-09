@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<directory xmlns="http://www.eclipse.org/mylyn/discovery/directory/">
+<entry url="https://devstudio.redhat.com/12/stable/updates/discovery.earlyaccess/12.0.0.GA/plugins/com.jboss.devstudio.central.discovery.earlyaccess_12.0.0.Final-v20180710-2108-B4572.jar" permitCategories="true"/>
+<entry url="https://devstudio.redhat.com/12/stable/updates/discovery.earlyaccess/12.0.0.GA/plugins/com.jboss.devstudio.central.discovery_12.0.0.Final-v20180710-2108-B4572.jar" permitCategories="true"/>
+<entry url="plugins/com.jboss.jbds.central.discovery.integration-stack_12.0.0.GA-v20180803-0941-B131.jar" permitCategories="true"/>
+</directory>
