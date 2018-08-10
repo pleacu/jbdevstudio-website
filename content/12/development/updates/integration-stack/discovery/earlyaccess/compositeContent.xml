@@ -10,8 +10,7 @@
 <property name='p2.timestamp' value='1518537271000'/>
 </properties>
 <children size='0'>
-  <!-- no content
-  <child location='../12.0.0.Beta1b/earlyaccess'/>
-  -->
+	<!-- when commenting these out arrows must be on the same line to ensure when parsed they're ignored -->
+	<!-- <child location='../12.0.0.Beta1b/earlyaccess'/> -->
 </children>
 </repository>
