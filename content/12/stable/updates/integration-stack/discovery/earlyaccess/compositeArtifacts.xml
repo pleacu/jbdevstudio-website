@@ -10,8 +10,6 @@
 <property name='p2.timestamp' value='1518537264000'/>
 </properties>
 <children size='0'>
-  <!-- no content
-  <child location='../12.0.0.GA/earlyaccess'/>
-  -->
+  <!-- <child location='../12.0.0.Beta1b/earlyaccess'/> -->
 </children>
 </repository>
