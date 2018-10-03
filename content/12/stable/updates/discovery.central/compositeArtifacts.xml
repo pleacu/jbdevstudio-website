@@ -2,13 +2,13 @@
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name='Red Hat Developer Studio - Core + Central Update Site' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1531408538000'/>
+    <property name='p2.timestamp' value='1538600930000'/>
     <property name='p2.compressed' value='true'/>
   </properties>
   <children size='4'>
-  	<child location='https://devstudio.redhat.com/targetplatforms/devstudiotarget/4.80.1.Final/REPO/'/>
-  	<child location='https://devstudio.redhat.com/static/12/stable/updates/core/12.0.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/static/12/stable/updates/central/12.0.0.GA/'/>
-  	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.80.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://devstudio.redhat.com/targetplatforms/devstudiotarget/4.9.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://devstudio.redhat.com/static/12/stable/updates/core/12.9.0.GA/'/>
+  	<child location='https://devstudio.redhat.com/static/12/stable/updates/central/12.9.0.GA/'/>
+  	<child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.9.0.Final-SNAPSHOT/REPO/'/>
   </children>
 </repository>
